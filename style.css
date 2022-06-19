@@ -308,9 +308,25 @@
 
     }
     @media screen and (max-device-width:480px) {
-        .fcol a, .content a{
-            margin: 5px;
+        .content a{
             margin-bottom: 20px;
+        }
+        .fcol a{
+            margin: -38px;
+        }
+        .foot4{
+            align-self: center;
+        }
+        .foot3{
+            margin-top: -48px;
+        }
+        .col1, .col2, .col3{
+            margin: 51 px;
+        }
+    }
+    @media screen and (max-device-width:350px) {
+        .content a{
+            margin: -62px;
         }
     }
     @media screen and (min-device-width:768px) and (max-device-width:1024) {
